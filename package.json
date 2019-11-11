@@ -1,0 +1,33 @@
+{
+  "name": "full-stack",
+  "version": "1.0.0",
+  "description": "All Js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipectelles/full-stack-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipectelles/full-stack-js/issues"
+  },
+  "homepage": "https://github.com/felipectelles/full-stack-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.9",
+    "uuid": "^3.3.3"
+  }
+}
